@@ -52,9 +52,9 @@ job_run_result = trigger_job(
 # the job run name can be considered as the unique identifier for the job run
 job2_run_name = job_run_result.jobRunName
 
-# You can save the job2_run_name in some db for future reference.
+# You can save the job2_run_name in some a run of mlfoundry OR in a db table
 # Your db table for runs can look something like this:
 # <Other columns>| job1_run_name | job2_run_name | job3_run_name
-# <Other >       | job-1-1234    | job2-6785     | job3-545433          
+# <Other >       | job-1-1234    | job2-6785     | job3-545433           
 print(f"Job2 triggered with run name: {job2_run_name}")
 
