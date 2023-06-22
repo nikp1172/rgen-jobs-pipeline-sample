@@ -4,7 +4,7 @@
 1. Login to truefoundry
 ```
 pip install servicefoundry
-servicefoundry login --host https://rgenai.truefoundry.com/
+servicefoundry login --host <enter your host here>
 ```
 2. Deploy the jobs in reverse order of their execution
 
